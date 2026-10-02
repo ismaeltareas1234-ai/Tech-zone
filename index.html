@@ -1,0 +1,1653 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TechZone | Tecnología del Futuro</title>
+
+    <link rel="stylesheet" href="CSSINDEX1.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="header">
+
+
+    <div class="logo">
+
+        <span>⚡</span> TECHZONE
+
+    </div>
+
+
+    <nav class="navbar">
+
+        <a href="#inicio">Inicio</a>
+
+        <a href="#productos">Productos</a>
+
+        <a href="#ofertas">Ofertas</a>
+
+        <a href="#contacto">Contacto</a>
+
+    </nav>
+
+
+    <!-- CARRITO -->
+
+    <div class="cart"
+         onclick="toggleCart()">
+
+        🛒
+
+        <span id="cart-count">
+            0
+        </span>
+
+    </div>
+
+
+</header>
+
+
+
+<!-- =====================================================
+     INICIO
+===================================================== -->
+
+<section class="hero"
+         id="inicio">
+
+
+    <div class="hero-content">
+
+
+        <p class="small-title">
+
+            ⚡ TECNOLOGÍA DE ÚLTIMA GENERACIÓN
+
+        </p>
+
+
+        <h1>
+
+            LA TECNOLOGÍA
+
+            <span>
+                DEL FUTURO
+            </span>
+
+        </h1>
+
+
+        <p class="description">
+
+            Encuentra laptops, smartphones, accesorios
+            y productos gaming al mejor precio.
+
+        </p>
+
+
+        <a href="#productos"
+           class="btn">
+
+            VER PRODUCTOS
+
+        </a>
+
+
+    </div>
+
+
+
+    <div class="hero-image">
+
+        <div class="glow"></div>
+
+        <div class="laptop">
+            💻
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     CATEGORÍAS
+===================================================== -->
+
+<section class="categories">
+
+
+    <h2>
+        CATEGORÍAS
+    </h2>
+
+
+    <div class="category-container">
+
+
+        <div class="category">
+
+            <span>💻</span>
+
+            <h3>
+                Laptops
+            </h3>
+
+            <p>
+                Computadoras de alto rendimiento
+            </p>
+
+        </div>
+
+
+
+        <div class="category">
+
+            <span>📱</span>
+
+            <h3>
+                Smartphones
+            </h3>
+
+            <p>
+                La tecnología en tus manos
+            </p>
+
+        </div>
+
+
+
+        <div class="category">
+
+            <span>🎧</span>
+
+            <h3>
+                Accesorios
+            </h3>
+
+            <p>
+                Todo lo que necesitas
+            </p>
+
+        </div>
+
+
+
+        <div class="category">
+
+            <span>🎮</span>
+
+            <h3>
+                Gaming
+            </h3>
+
+            <p>
+                Juega sin límites
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     PRODUCTOS
+===================================================== -->
+
+<section class="products"
+         id="productos">
+
+
+    <div class="section-title">
+
+
+        <p>
+            LO MÁS BUSCADO
+        </p>
+
+
+        <h2>
+            PRODUCTOS DESTACADOS
+        </h2>
+
+
+    </div>
+
+
+
+    <div class="product-container">
+
+
+        <!-- =================================================
+             PRODUCTO 1
+        ================================================== -->
+
+        <div class="product-card">
+
+
+            <div class="product-image">
+                💻
+            </div>
+
+
+            <span class="tag">
+                NUEVO
+            </span>
+
+
+            <h3>
+                Lenovo R3 IdeaPat
+            </h3>
+
+
+            <p>
+
+                Laptop Intel Core i7,
+                16GB RAM,
+                SSD 512GB.
+
+            </p>
+
+
+            <div class="price">
+                $899.99
+            </div>
+
+
+            <button onclick="addToCart(1)">
+
+                AGREGAR AL CARRITO
+
+            </button>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             PRODUCTO 2
+        ================================================== -->
+
+        <div class="product-card">
+
+
+            <div class="product-image">
+                📱
+            </div>
+
+
+            <span class="tag">
+                POPULAR
+            </span>
+
+
+            <h3>
+                Samsung S24 Ultra
+            </h3>
+
+
+            <p>
+
+                Pantalla AMOLED,
+                256GB,
+                cámara de 108MP.
+
+            </p>
+
+
+            <div class="price">
+                $599.99
+            </div>
+
+
+            <button onclick="addToCart(2)">
+
+                AGREGAR AL CARRITO
+
+            </button>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             PRODUCTO 3
+        ================================================== -->
+
+        <div class="product-card">
+
+
+            <div class="product-image">
+                🎧
+            </div>
+
+
+            <span class="tag">
+                OFERTA
+            </span>
+
+
+            <h3>
+                JBL
+            </h3>
+
+
+            <p>
+
+                Audífonos inalámbricos
+                con cancelación de ruido.
+
+            </p>
+
+
+            <div class="price">
+                $79.99
+            </div>
+
+
+            <button onclick="addToCart(3)">
+
+                AGREGAR AL CARRITO
+
+            </button>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             PRODUCTO 4
+        ================================================== -->
+
+        <div class="product-card">
+
+
+            <div class="product-image">
+                🎮
+            </div>
+
+
+            <span class="tag">
+                GAMING
+            </span>
+
+
+            <h3>
+                Mando Xbox PS5
+            </h3>
+
+
+            <p>
+
+                Control inalámbrico
+                para videojuegos.
+
+            </p>
+
+
+            <div class="price">
+                $59.99
+            </div>
+
+
+            <button onclick="addToCart(4)">
+
+                AGREGAR AL CARRITO
+
+            </button>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     OFERTAS
+===================================================== -->
+
+<section class="offers"
+         id="ofertas">
+
+
+    <div class="offer-content">
+
+
+        <p>
+            🔥 OFERTA ESPECIAL
+        </p>
+
+
+        <h2>
+            HASTA 30% DE DESCUENTO
+        </h2>
+
+
+        <p>
+
+            Aprovecha nuestras ofertas por tiempo limitado
+            en productos seleccionados.
+
+        </p>
+
+
+        <a href="#productos"
+           class="btn">
+
+            VER OFERTAS
+
+        </a>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     BENEFICIOS
+===================================================== -->
+
+<section class="benefits">
+
+
+    <div class="benefit">
+
+        <span>🚚</span>
+
+        <h3>
+            Envío rápido
+        </h3>
+
+        <p>
+            Recibe tus productos rápidamente.
+        </p>
+
+    </div>
+
+
+
+    <div class="benefit">
+
+        <span>🔒</span>
+
+        <h3>
+            Pago seguro
+        </h3>
+
+        <p>
+            Tus compras están protegidas.
+        </p>
+
+    </div>
+
+
+
+    <div class="benefit">
+
+        <span>⭐</span>
+
+        <h3>
+            Productos de calidad
+        </h3>
+
+        <p>
+            Tecnología seleccionada para ti.
+        </p>
+
+    </div>
+
+
+
+    <div class="benefit">
+
+        <span>💬</span>
+
+        <h3>
+            Soporte
+        </h3>
+
+        <p>
+            Estamos disponibles para ayudarte.
+        </p>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACTO
+===================================================== -->
+
+<section class="contact"
+         id="contacto">
+
+
+    <div class="section-title">
+
+
+        <p>
+            ¿TIENES ALGUNA DUDA?
+        </p>
+
+
+        <h2>
+            CONTÁCTANOS
+        </h2>
+
+
+    </div>
+
+
+
+    <div class="contact-container">
+
+
+        <div class="contact-info">
+
+
+            <h3>
+                TechZone
+            </h3>
+
+
+            <p>
+                📍 Guayaquil, Ecuador
+            </p>
+
+
+            <p>
+                📞 +593 999 999 999
+            </p>
+
+
+            <p>
+                📧 contacto@techzone.com
+            </p>
+
+
+            <p>
+                🕐 Lunes - Sábado: 9:00 - 18:00
+            </p>
+
+
+        </div>
+
+
+
+        <form class="contact-form">
+
+
+            <input
+                type="text"
+                placeholder="Tu nombre"
+                required
+            >
+
+
+            <input
+                type="email"
+                placeholder="Tu correo"
+                required
+            >
+
+
+            <textarea
+                placeholder="Escribe tu mensaje..."
+                rows="5"
+                required
+            ></textarea>
+
+
+            <button type="submit">
+
+                ENVIAR MENSAJE
+
+            </button>
+
+
+        </form>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+
+    <div class="logo">
+
+        <span>⚡</span>
+
+        TECHZONE
+
+    </div>
+
+
+    <p>
+
+        © 2026 TechZone.
+        Todos los derechos reservados.
+
+    </p>
+
+
+    <div class="social">
+
+        Instagram · Facebook · TikTok
+
+    </div>
+
+
+</footer>
+
+
+
+<!-- =====================================================
+     FONDO OSCURO DEL CARRITO
+===================================================== -->
+
+<div id="cart-overlay"
+     class="cart-overlay"
+     onclick="closeCart()">
+</div>
+
+
+
+<!-- =====================================================
+     PANEL LATERAL DEL CARRITO
+===================================================== -->
+
+<div id="cart-panel"
+     class="cart-panel">
+
+
+    <!-- CABECERA -->
+
+    <div class="cart-header">
+
+
+        <div>
+
+
+            <span class="cart-title-icon">
+                🛒
+            </span>
+
+
+            <div>
+
+                <h2>
+                    Mi carrito
+                </h2>
+
+                <small id="cart-items-count">
+                    0 productos
+                </small>
+
+            </div>
+
+
+        </div>
+
+
+        <button
+            onclick="closeCart()"
+            class="close-cart"
+            aria-label="Cerrar carrito"
+        >
+
+            ✕
+
+        </button>
+
+
+    </div>
+
+
+
+    <!-- PRODUCTOS -->
+
+    <div id="cart-items"
+         class="cart-items">
+
+
+        <div class="empty-cart">
+
+
+            <div class="empty-cart-icon">
+                🛒
+            </div>
+
+
+            <h3>
+                Tu carrito está vacío
+            </h3>
+
+
+            <p>
+                Agrega productos para comenzar
+                tu compra.
+            </p>
+
+
+            <button
+                onclick="closeCart()"
+                class="continue-shopping"
+            >
+
+                SEGUIR COMPRANDO
+
+            </button>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- PIE DEL CARRITO -->
+
+    <div class="cart-footer">
+
+
+        <div class="summary-row">
+
+
+            <span>
+                Subtotal
+            </span>
+
+
+            <strong id="cart-subtotal">
+                $0.00
+            </strong>
+
+
+        </div>
+
+
+
+        <div class="summary-row">
+
+
+            <span>
+                Envío
+            </span>
+
+
+            <strong class="free">
+                GRATIS
+            </strong>
+
+
+        </div>
+
+
+
+        <div class="summary-line"></div>
+
+
+
+        <div class="cart-total">
+
+
+            <span>
+                Total
+            </span>
+
+
+            <strong id="cart-total">
+                $0.00
+            </strong>
+
+
+        </div>
+
+
+
+        <button
+            class="checkout-btn"
+            onclick="checkout()"
+        >
+
+            FINALIZAR COMPRA
+
+        </button>
+
+
+
+        <button
+            class="continue-btn"
+            onclick="closeCart()"
+        >
+
+            ← Seguir comprando
+
+        </button>
+
+
+    </div>
+
+
+</div>
+
+
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script>
+
+
+/* =====================================================
+   PRODUCTOS
+===================================================== */
+
+const products = [
+
+
+    {
+        id: 1,
+
+        name: "Lenovo R3 IdeaPat",
+
+        description:
+            "Laptop Intel Core i7, 16GB RAM, SSD 512GB.",
+
+        price: 899.99,
+
+        icon: "💻"
+    },
+
+
+    {
+        id: 2,
+
+        name: "Samsung S24 Ultra",
+
+        description:
+            "Pantalla AMOLED, 256GB, cámara de 108MP.",
+
+        price: 599.99,
+
+        icon: "📱"
+    },
+
+
+    {
+        id: 3,
+
+        name: "JBL",
+
+        description:
+            "Audífonos inalámbricos con cancelación de ruido.",
+
+        price: 79.99,
+
+        icon: "🎧"
+    },
+
+
+    {
+        id: 4,
+
+        name: "Mando Xbox PS5",
+
+        description:
+            "Control inalámbrico para videojuegos.",
+
+        price: 59.99,
+
+        icon: "🎮"
+    }
+
+];
+
+
+
+/* =====================================================
+   CARRITO
+===================================================== */
+
+let cart =
+    JSON.parse(
+        localStorage.getItem(
+            "techzoneCart"
+        )
+    ) || [];
+
+
+
+/* =====================================================
+   GUARDAR CARRITO
+===================================================== */
+
+function saveCart() {
+
+
+    localStorage.setItem(
+
+        "techzoneCart",
+
+        JSON.stringify(cart)
+
+    );
+
+}
+
+
+
+/* =====================================================
+   AGREGAR PRODUCTO
+===================================================== */
+
+function addToCart(productId) {
+
+
+    const product =
+        products.find(
+            p => p.id === productId
+        );
+
+
+    if (!product) {
+
+        return;
+
+    }
+
+
+    const existingProduct =
+        cart.find(
+            p => p.id === productId
+        );
+
+
+    if (existingProduct) {
+
+
+        existingProduct.quantity++;
+
+
+    } else {
+
+
+        cart.push({
+
+            ...product,
+
+            quantity: 1
+
+        });
+
+
+    }
+
+
+    saveCart();
+
+    updateCart();
+
+
+    openCart();
+
+
+    showNotification(
+        "✓ Producto agregado al carrito"
+    );
+
+}
+
+
+
+/* =====================================================
+   ACTUALIZAR CARRITO
+===================================================== */
+
+function updateCart() {
+
+
+    const cartCount =
+        document.getElementById(
+            "cart-count"
+        );
+
+
+    const itemsCount =
+        document.getElementById(
+            "cart-items-count"
+        );
+
+
+    const cartItems =
+        document.getElementById(
+            "cart-items"
+        );
+
+
+    const cartSubtotal =
+        document.getElementById(
+            "cart-subtotal"
+        );
+
+
+    const cartTotal =
+        document.getElementById(
+            "cart-total"
+        );
+
+
+    const totalItems =
+        cart.reduce(
+
+            (total, product) =>
+
+                total +
+                product.quantity,
+
+            0
+
+        );
+
+
+    cartCount.textContent =
+        totalItems;
+
+
+    if (totalItems === 1) {
+
+
+        itemsCount.textContent =
+            "1 producto";
+
+
+    } else {
+
+
+        itemsCount.textContent =
+            `${totalItems} productos`;
+
+    }
+
+
+
+    /* CARRITO VACÍO */
+
+    if (cart.length === 0) {
+
+
+        cartItems.innerHTML = `
+
+            <div class="empty-cart">
+
+                <div class="empty-cart-icon">
+                    🛒
+                </div>
+
+                <h3>
+                    Tu carrito está vacío
+                </h3>
+
+                <p>
+                    Agrega productos para comenzar
+                    tu compra.
+                </p>
+
+                <button
+                    onclick="closeCart()"
+                    class="continue-shopping"
+                >
+                    SEGUIR COMPRANDO
+                </button>
+
+            </div>
+
+        `;
+
+
+        cartSubtotal.textContent =
+            "$0.00";
+
+
+        cartTotal.textContent =
+            "$0.00";
+
+
+        return;
+
+    }
+
+
+
+    /* MOSTRAR PRODUCTOS */
+
+    cartItems.innerHTML = "";
+
+
+    let total = 0;
+
+
+    cart.forEach(product => {
+
+
+        const subtotal =
+            product.price *
+            product.quantity;
+
+
+        total += subtotal;
+
+
+        cartItems.innerHTML += `
+
+            <div class="cart-item">
+
+
+                <div class="cart-product-icon">
+
+                    ${product.icon}
+
+                </div>
+
+
+                <div class="cart-product-info">
+
+
+                    <h4>
+                        ${product.name}
+                    </h4>
+
+
+                    <span class="cart-description">
+                        ${product.description}
+                    </span>
+
+
+                    <strong class="cart-price">
+
+                        $${product.price.toFixed(2)}
+
+                    </strong>
+
+
+                    <div class="quantity">
+
+
+                        <button
+                            onclick="changeQuantity(${product.id}, -1)"
+                        >
+
+                            −
+
+                        </button>
+
+
+                        <span>
+
+                            ${product.quantity}
+
+                        </span>
+
+
+                        <button
+                            onclick="changeQuantity(${product.id}, 1)"
+                        >
+
+                            +
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="cart-product-right">
+
+
+                    <strong>
+
+                        $${subtotal.toFixed(2)}
+
+                    </strong>
+
+
+                    <button
+                        class="remove-product"
+                        onclick="removeFromCart(${product.id})"
+                        title="Eliminar producto"
+                    >
+
+                        🗑️
+
+                    </button>
+
+
+                </div>
+
+
+            </div>
+
+        `;
+
+    });
+
+
+
+    cartSubtotal.textContent =
+        `$${total.toFixed(2)}`;
+
+
+    cartTotal.textContent =
+        `$${total.toFixed(2)}`;
+
+}
+
+
+
+/* =====================================================
+   CAMBIAR CANTIDAD
+===================================================== */
+
+function changeQuantity(
+    productId,
+    change
+) {
+
+
+    const product =
+        cart.find(
+            p => p.id === productId
+        );
+
+
+    if (!product) {
+
+        return;
+
+    }
+
+
+    product.quantity += change;
+
+
+    if (product.quantity <= 0) {
+
+
+        removeFromCart(
+            productId
+        );
+
+
+        return;
+
+    }
+
+
+    saveCart();
+
+    updateCart();
+
+}
+
+
+
+/* =====================================================
+   ELIMINAR PRODUCTO
+===================================================== */
+
+function removeFromCart(
+    productId
+) {
+
+
+    cart =
+        cart.filter(
+
+            product =>
+                product.id !== productId
+
+        );
+
+
+    saveCart();
+
+    updateCart();
+
+}
+
+
+
+/* =====================================================
+   ABRIR CARRITO
+===================================================== */
+
+function openCart() {
+
+
+    const cartPanel =
+        document.getElementById(
+            "cart-panel"
+        );
+
+
+    const overlay =
+        document.getElementById(
+            "cart-overlay"
+        );
+
+
+    cartPanel.classList.add(
+        "active"
+    );
+
+
+    overlay.classList.add(
+        "active"
+    );
+
+
+    document.body.classList.add(
+        "cart-open"
+    );
+
+}
+
+
+
+/* =====================================================
+   CERRAR CARRITO
+===================================================== */
+
+function closeCart() {
+
+
+    const cartPanel =
+        document.getElementById(
+            "cart-panel"
+        );
+
+
+    const overlay =
+        document.getElementById(
+            "cart-overlay"
+        );
+
+
+    cartPanel.classList.remove(
+        "active"
+    );
+
+
+    overlay.classList.remove(
+        "active"
+    );
+
+
+    document.body.classList.remove(
+        "cart-open"
+    );
+
+}
+
+
+
+/* =====================================================
+   ABRIR / CERRAR
+===================================================== */
+
+function toggleCart() {
+
+
+    const cartPanel =
+        document.getElementById(
+            "cart-panel"
+        );
+
+
+    if (
+        cartPanel.classList.contains(
+            "active"
+        )
+    ) {
+
+
+        closeCart();
+
+
+    } else {
+
+
+        openCart();
+
+    }
+
+}
+
+
+
+/* =====================================================
+   FINALIZAR COMPRA
+===================================================== */
+
+function checkout() {
+
+
+    if (cart.length === 0) {
+
+
+        showNotification(
+            "⚠️ Tu carrito está vacío"
+        );
+
+
+        return;
+
+    }
+
+
+    const total =
+        cart.reduce(
+
+            (sum, product) =>
+
+                sum +
+                product.price *
+                product.quantity,
+
+            0
+
+        );
+
+
+    alert(
+
+        "🎉 ¡Gracias por tu compra!\n\n" +
+
+        "Total: $" +
+        total.toFixed(2) +
+
+        "\n\n" +
+
+        "Tu pedido ha sido registrado."
+
+    );
+
+
+    cart = [];
+
+
+    saveCart();
+
+    updateCart();
+
+    closeCart();
+
+}
+
+
+
+/* =====================================================
+   NOTIFICACIÓN
+===================================================== */
+
+function showNotification(
+    message
+) {
+
+
+    const notification =
+        document.createElement(
+            "div"
+        );
+
+
+    notification.className =
+        "cart-notification";
+
+
+    notification.textContent =
+        message;
+
+
+    document.body.appendChild(
+        notification
+    );
+
+
+    setTimeout(
+        () => {
+
+            notification.classList.add(
+                "show"
+            );
+
+        },
+        10
+    );
+
+
+    setTimeout(
+        () => {
+
+            notification.classList.remove(
+                "show"
+            );
+
+
+            setTimeout(
+                () => {
+
+                    notification.remove();
+
+                },
+                300
+            );
+
+        },
+        2000
+    );
+
+}
+
+
+
+/* =====================================================
+   ESC PARA CERRAR
+===================================================== */
+
+document.addEventListener(
+    "keydown",
+    function(event) {
+
+
+        if (
+            event.key === "Escape"
+        ) {
+
+
+            closeCart();
+
+        }
+
+    }
+);
+
+
+
+/* =====================================================
+   INICIAR
+===================================================== */
+
+document.addEventListener(
+    "DOMContentLoaded",
+    function() {
+
+        updateCart();
+
+    }
+);
+
+</script>
+
+
+</body>
+
+</html>
